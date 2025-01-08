@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="https://formspree.io/f/xpwwogqk" method="POST">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="Password" placeholder="Enter your password" required><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="Age" placeholder="Enter your age"><br><br>
+
+            <label for="contact">Contact:</label>
+            <input type="tel" id="contact" name="Contact" placeholder="Enter your contact number" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="Date_of_Birth" placeholder="Enter your DOB"><br><br>
+
+            <label for="passed-out-year">Passed Out Year:</label>
+            <input type="number" id="passed-out-year" name="Passed_Out_Year" placeholder="Enter your passed out year"><br><br>
+
+            <label for="upload-image">Upload your image:</label>
+            <input type="file" id="upload-image" name="Upload_Image" placeholder="Upload your image" required><br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="Gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select><br><br>
+
+            <label for="courses">Courses:</label>
+            <select id="courses" name="Courses" required>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Information Technology">Information Technology</option>
+                <option value="Electronics and Communication">Electronics and Communication</option>
+                <option value="Mechanical Engineering">Mechanical Engineering</option>
+                <option value="Civil Engineering">Civil Engineering</option>
+            </select><br><br>
+
+            <label>Programming Language Known:</label><br>
+            <input type="checkbox" id="python" value="Python" name="Programming_Language">Python<br>
+            <input type="checkbox" id="java" value="Java" name="Programming_Language">Java<br>
+            <input type="checkbox" id="c" value="C" name="Programming_Language">C<br>
+            <input type="checkbox" id="cpp" value="C++" name="Programming_Language">C++<br>
+            <input type="checkbox" id="ruby" value="Ruby" name="Programming_Language">Ruby<br><br>
+
+            <label for="fav-color">Enter your fav color:</label>
+            <input type="color" id="fav-color" name="Favorite_Color" placeholder="Enter your color"><br><br>
+
+            <label for="github-link">Enter your gitHub profile Link:</label>
+            <input type="url" id="github-link" name="GitHub_Profile_Link"><br><br>
+
+            <label for="about-me">About me:</label><br>
+            <textarea id="about-me" name="About_Me" placeholder="Write about yourself here..."></textarea><br><br>
+
+            <button type="submit"><b>Submit</b></button>
+            <button type="reset"><b>Reset</b></button>
+        </fieldset>
+    </form>
+</body>
+</html>
